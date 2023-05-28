@@ -127,7 +127,7 @@ packages:
       name: stepper_a
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.1.2"
+    version: "1.2.1"
   stream_channel:
     dependency: transitive
     description:

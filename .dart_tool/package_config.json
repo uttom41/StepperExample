@@ -111,7 +111,7 @@
     },
     {
       "name": "stepper_a",
-      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/stepper_a-1.1.2",
+      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/stepper_a-1.2.1",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
@@ -152,7 +152,7 @@
       "languageVersion": "2.18"
     }
   ],
-  "generated": "2023-04-17T16:22:46.953926Z",
+  "generated": "2023-05-28T17:37:05.097896Z",
   "generator": "pub",
   "generatorVersion": "2.18.6"
 }

@@ -29,9 +29,8 @@ class _ExampleOneState extends State<ExampleOne> {
                 child: StepperA(
                 stepperSize: Size(350, 70),
                 stepperAxis: Axis.horizontal,
-              //  borderShape: BorderShape.rRect,
-              //  borderType: BorderType.straight,
-                floatingButton: false,
+                borderShape: BorderShape.rRect,
+                borderType: BorderType.straight,
                 stepperBodyWidget: [
                   StepOne(),
                   StepTwo(),
