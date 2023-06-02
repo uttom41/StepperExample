@@ -52,14 +52,14 @@ class _ExampleTwoState extends State<ExampleTwo> {
             buttonWidget: const Icon(
               Icons.arrow_back,
               color: Colors.white,
-            ),
+            ), onTap: (int currentIndex) {  },
           ),
           forwardButton: (index) => StepperAButton(
             width: index == 0 ? 200 : 90,
             height: 40,
             buttonWidget: index == 3
                 ? const Text('Complete', style: TextStyle(fontSize: 14, color: Colors.white))
-                : const Text('Next', style: TextStyle(fontSize: 14, color: Colors.white)),
+                : const Text('Next', style: TextStyle(fontSize: 14, color: Colors.white)), onTap: (int currentIndex) {  },
           ),
           customSteps: [
             const CustomSteps(stepsIcon: Icons.login, title: "LogIn"),
@@ -73,7 +73,7 @@ class _ExampleTwoState extends State<ExampleTwo> {
               inactiveStepColor: Colors.black45,
               // loadingWidget: CircularProgressIndicator(color: Colors.green,),
               margin: EdgeInsets.all(5)),
-          stepperBodyWidget: [
+          stepperBodyWidget: const [
             StepOne(),
             StepTwo(),
             StepThree(),
